@@ -50,7 +50,7 @@ void loop() {
     sendDataWire(0, potAddr1);    // send position (0-100) to I2C Addr
     sendDataWire(25, potAddr2);   // send position (0-100) to I2C Addr
     sendDataWire(50, potAddr3);   // send position (0-100) to I2C Addr
-    sendDataWire(750, potAddr4);  // send position (0-100) to I2C Addr
+    sendDataWire(75, potAddr4);  // send position (0-100) to I2C Addr
     delay(100);
   }
 
@@ -58,7 +58,7 @@ void loop() {
     sendDataWire(60, potAddr1);   // send position (0-100) to I2C Addr
     sendDataWire(40, potAddr2);   // send position (0-100) to I2C Addr
     sendDataWire(80, potAddr3);   // send position (0-100) to I2C Addr
-    sendDataWire(300, potAddr4);  // send position (0-100) to I2C Addr
+    sendDataWire(50, potAddr4);  // send position (0-100) to I2C Addr
     delay(100);
   }
 
