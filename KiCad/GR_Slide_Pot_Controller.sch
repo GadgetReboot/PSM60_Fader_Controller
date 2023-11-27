@@ -45,7 +45,7 @@ Wire Wire Line
 Text Label 3275 7125 0    50   ~ 0
 SCL
 $Comp
-L PSM60_Fader:PSM60-081A-103B2 R7
+L GR_Slide_Pot_Controller-rescue:PSM60-081A-103B2-PSM60_Fader R7
 U 1 1 6269F133
 P 6925 4825
 F 0 "R7" H 7725 5212 60  0000 C CNN
@@ -67,7 +67,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny804_1604-Data-Sheet-4
 	1    0    0    -1  
 $EndComp
 $Comp
-L L293dd:L293DD U4
+L GR_Slide_Pot_Controller-rescue:L293DD-L293dd U4
 U 1 1 626AC80A
 P 6625 1275
 F 0 "U4" H 7725 1762 60  0000 C CNN
@@ -320,7 +320,7 @@ U 1 1 627282D2
 P 6425 3525
 F 0 "C4" H 6516 3571 50  0000 L CNN
 F 1 "10uF 16v" H 6516 3480 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x5.4" H 6425 3525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_Elec_4x5.4" H 6425 3525 50  0001 C CNN
 F 3 "~" H 6425 3525 50  0001 C CNN
 	1    6425 3525
 	1    0    0    -1  
@@ -388,7 +388,7 @@ U 1 1 6274D0BD
 P 9700 2025
 F 0 "C6" H 9791 2071 50  0000 L CNN
 F 1 "10uF 16v" H 9791 1980 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x5.4" H 9700 2025 50  0001 C CNN
+F 2 "Capacitor_SMD:C_Elec_4x5.4" H 9700 2025 50  0001 C CNN
 F 3 "~" H 9700 2025 50  0001 C CNN
 	1    9700 2025
 	1    0    0    -1  
